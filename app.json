@@ -13,7 +13,7 @@
             "required": true
         },
         "LANGUAGE": {
-            "description": "Botun dili. Bot language. Azerice => az, English => en, Türkçe => tr",
+            "description": "Botun dili. Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml",
             "required": true,
             "value": "TR"
         },
