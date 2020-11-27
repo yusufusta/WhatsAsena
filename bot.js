@@ -65,7 +65,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('✅ Giriş bilgileri güncellendi!')
+            chalk.blueBright.italic('✅ Login information updated!')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -80,17 +80,17 @@ async function whatsAsena () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️  WhatsApp\'a bağlanılıyor... Lütfen bekleyin.')}`);
+${chalk.blue.italic('ℹ️ Connecting to WhatsApp ... Please wait.')}`);
     });
     
 
     conn.on('open', () => {
         console.log(
-            chalk.green.bold('✅ Giriş başarılı!')
+            chalk.green.bold('✅ Login successful!')
         );
     
         console.log(
-            chalk.blueBright.italic('⬇️  Pluginler yükleniyor...')
+            chalk.blueBright.italic('⬇️ Installing plugins ...')
         );
     
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -100,7 +100,7 @@ ${chalk.blue.italic('ℹ️  WhatsApp\'a bağlanılıyor... Lütfen bekleyin.')}
         });
     
         console.log(
-            chalk.blueBright.italic('✅ Pluginler yüklendi!')
+            chalk.blueBright.italic('✅ Plugins Installed!')
         );
     });
     
@@ -214,7 +214,7 @@ ${chalk.blue.italic('ℹ️  WhatsApp\'a bağlanılıyor... Lütfen bekleyin.')}
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('Your old version string is being renewed ...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
