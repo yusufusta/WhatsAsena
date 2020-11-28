@@ -31,6 +31,7 @@ const spotifyApi = new SpotifyWebApi({
     clientSecret: '0e8439a1280a43aba9a5bc0a16f3f009'
 });
 //=====================================================================================
+//============================= TRANSLATE =============================================
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
 
