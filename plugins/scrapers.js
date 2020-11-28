@@ -36,7 +36,7 @@ const Lang = Language.getString('scrapers');
 
 const wiki = require('wikijs').default;
 
-Asena.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'tr(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
     if (!message.reply_message) {
         return await message.reply(Lang.NEED_REPLY);
     }
