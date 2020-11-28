@@ -11,9 +11,9 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 
-const Lang = Language.getString('_asena');
+const Lang = Language.getString('_help');
 
-Asena.addCommand({pattern: 'asena', fromMe: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'help', fromMe: true}, (async (message, match) => {
     var CMD_HELP = '';
 
     Asena.commands.map(
