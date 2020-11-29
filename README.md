@@ -32,7 +32,7 @@ As of version 0.8, we added English language support. When deploying Heroku, onl
 `Üzerinde Çalışıyoruz...`
 
 ### Basit Yöntem
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Quiec/WhatsAsena)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/5H4D0WX/WhatsAsena)
 
 ### Zor Yöntem
 ```js
