@@ -16,7 +16,7 @@ const cwebp = require('cwebp-bin');
 const Language = require('../language');
 const Lang = Language.getString('sticker');
 
-Asena.addCommand({pattern: 'sticker', fromMe: true, desc: Lang.STICKER_DESC}, (async (message, match) => {    
+Asena.addCommand({pattern: 'curry', fromMe: true, desc: Lang.STICKER_DESC}, (async (message, match) => {    
     if (message.reply_message === false) return await message.sendMessage(Lang.NEED_REPLY);
     await message.sendMessage(Lang.DOWNLOADING);
     
