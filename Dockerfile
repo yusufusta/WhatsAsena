@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:publicbeta
 
-RUN git clone https://github.com/Quiec/WhatsAsena /root/WhatsAsena
+RUN git clone https://github.com/elzeXD/WhatsAsena /root/WhatsAsena
 RUN mkdir /root/WhatsAsena/bin/
 WORKDIR /root/WhatsAsena/
 
