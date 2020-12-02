@@ -31,16 +31,16 @@
         },
         "afk": {
             "AFK_DESC": "It makes you AFK.",
-            "IM_AFK": "*I'm AFK now!*",
-            "IM_AFK_NOMD": "I'm AFK now!",
-            "REASON": "Reason",
-            "LAST_SEEN": "Last Seen",
-            "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot. My owner is not here at the moment.",
-            "HOUR": "time",
-            "MINUTE": "minute",
-            "SECOND": "second"
+            "IM_AFK": "*Sekarang AFK!*",
+            "IM_AFK_NOMD": "Sekarang AFK!",
+            "REASON": "Alasan:",
+            "LAST_SEEN": "Sejak:",
+            "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
+            "AFK_TEXT": "```Vincent sedang AFK!```",
+            "AFK_TEXT_NOMD": "Halo, ini adalah pesan otomatis dari bot.\nMohon tunggu majikanku untuk membalas.\n𝘉𝘦𝘸𝘢𝘳𝘦 𝘮𝘺 𝘶𝘴𝘦𝘳𝘣𝘰𝘵, 𝘚𝘱𝘢𝘮 = 𝘉𝘭𝘰𝘤𝘬 + 𝘙𝘦𝘱𝘰𝘳𝘵!",
+            "HOUR": "j",
+            "MINUTE": "m",
+            "SECOND": "d"
         },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
@@ -121,7 +121,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "DOWNLOADING": "```Sedang mencurry stiker...```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
