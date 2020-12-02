@@ -25,9 +25,9 @@ function secondsToHms(d) {
     var m = Math.floor(d % 3600 / 60);
     var s = Math.floor(d % 3600 % 60);
 
-    var hDisplay = h > 0 ? h + (h == 1 ? " saat, " : " saat, ") : "";
-    var mDisplay = m > 0 ? m + (m == 1 ? " dakika, " : " dakika, ") : "";
-    var sDisplay = s > 0 ? s + (s == 1 ? " saniye" : " saniye") : "";
+    var hDisplay = h > 0 ? h + (h == 1 ? " jam, " : " jam, ") : "";
+    var mDisplay = m > 0 ? m + (m == 1 ? " menit, " : " menit, ") : "";
+    var sDisplay = s > 0 ? s + (s == 1 ? " detik" : " detik") : "";
     return hDisplay + mDisplay + sDisplay; 
 }
 
@@ -39,19 +39,19 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
                 if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
                     await message.sendMessage(Lang.AFK_TEXT + '\n' + 
                     (AFK.reason !== false ? '\n*' + Lang.AFK_TEXT + ':* ```' + AFK.reason + '```' : '') + 
-                    (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' önce```' : ''), MessageType.text, {quoted: message.data});            
+                    (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' yang lalu```' : ''), MessageType.text, {quoted: message.data});            
                 }
             })
         } else if (message.jid.includes('-') && message.reply_message !== false) {
             if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
                 await message.sendMessage(Lang.AFK_TEXT + '\n' + 
                     (AFK.reason !== false ? '\n*' + Lang.AFK_TEXT + ':* ```' + AFK.reason + '```' : '') + 
-                    (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' önce```' : ''), MessageType.text, {quoted: message.data});
+                    (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' yang lalu```' : ''), MessageType.text, {quoted: message.data});
             }
         } else {
             await message.sendMessage(Lang.AFK_TEXT + '\n' + 
             (AFK.reason !== false ? '\n*' + Lang.AFK_TEXT + ':* ```' + AFK.reason + '```' : '') + 
-            (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' önce```' : ''), MessageType.text, {quoted: message.data});    
+            (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' yang lalu```' : ''), MessageType.text, {quoted: message.data});    
         }
     }
 }));
