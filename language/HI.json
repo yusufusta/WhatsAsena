@@ -116,7 +116,7 @@
         },
         "scrapers": {
             "TRANSLATE_DESC": "यह Google अनुवाद के साथ अनुवाद करता है. आपको किसी भी Message का जवाब देना चाहिए।",
-            "TRANSLATE_USAGE": ".trt tr it (तुर्की से इटली की भाषा)",
+            "TRANSLATE_USAGE": ".trt en hi (अंग्रेजी से हिंदी भाषाा)",
             "NEED_REPLY": "```कृपया किसी भी संदेश का जवाब दें!```",
             "LANG": "भाषा",
             "FROM": "अनूदित भाषा",
