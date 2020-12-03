@@ -8,21 +8,21 @@
             "COMMAND": "आदेश",
             "DESC": "वर्णन",
             "EXAMPLE": "नमूना",
-            "NOT_FOUND": "*I couldn't find a command like this*"
+            "NOT_FOUND": "*मुझे इस तरह की कमांड नहीं मिली*"
         },
         "_plugin": {
-            "INSTALL_DESC": "Plugin installs.",
-            "NEED_URL": "Please enter a URL! Example:",
-            "INVALID_URL": "```Please enter a valid url!```",
-            "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
-            "INSTALLED": "*✅ Plugin has been successfully installed!*",
-            "PLUGIN_DESC": "Shows the plugins you have installed.",
-            "INSTALLED_FROM_REMOTE": "*Plugins you install externally:*",
-            "NO_PLUGIN": "*You have not installed any external plugins!*",
-            "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "*✅ Module successfully deleted! You must restart for the changes to take effect.*"
+            "INSTALL_DESC": "प्लगइन इंस्टॉल करता है|",
+            "NEED_URL": "कृपया एक URL दर्ज करें! उदाहरण:",
+            "INVALID_URL": "```कृपया एक मान्य URL दर्ज कीजिए!```",
+            "INVALID_PLUGIN": "*❌ आपका प्लगइन अमान्य है!*\n*एरर:*",
+            "INSTALLED": "*✅ प्लगइन सफलतापूर्वक इंस्टॉल किया गया है!*",
+            "PLUGIN_DESC": "आपके द्वारा इंस्टॉल किए गए प्लगइन्स को दिखाता है।",
+            "INSTALLED_FROM_REMOTE": "*बाहरी रूप से इंस्टॉल किए गए प्लगइन्स:*\n",
+            "NO_PLUGIN": "*आपने कोई बाहरी प्लगइन इंस्टॉल नहीं किया है!*",
+            "REMOVE_DESC": "प्लगइन निकालता है.",
+            "NEED_PLUGIN": "```कृपया एक प्लगइन दर्ज करें! उदाहरण: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```हो सकता है कि आपने ऐसा प्लगइन स्थापित किया हो, या शायद नहीं. लेकिन यह निश्चित है कि अभी नहीं है।```",
+            "DELETED": "*✅ मॉड्यूल सफलतापूर्वक हटा दिया गया! परिवर्तन प्रभावी होने के लिए आपको restart करना होगा।*"
         },
         "admin": {
             "BAN_DESC": "ग्रुप में किसी को प्रतिबंधित (Ban) करें । संदेश का जवाब (Reply) दें या कमांड का उपयोग करने के लिए किसी व्यक्ति को टैग करें।",
@@ -62,9 +62,9 @@
             "GIVE_ME_CODE": "*मुझे एक कोड दें!*"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "इसमें भेजे गए संदेश nekobin.com मैं जोड़े जाएंगे |",
+            "NEED_REPLY": "```कृपया एक संदेश का जवाब दें!```",
+            "MUST_TEXT": "```कृपया किसी भी संदेश का जवाब दें```"
         },
         "filters": {
             "FILTER_DESC": "यह एक फिल्टर जोड़ता है. अगर कोई आपका फ़िल्टर लिखता है, यह जवाब भेजता है. अगर तुम सिर्फ लिखो. filter, यह आपकी फ़िल्टर सूची दिखाता है।",
@@ -92,14 +92,14 @@
             "GOODBYE_SETTED": "*✅ अलविदा संदेश सफलतापूर्वक सेट किया गया है!*"
         },
         "lydia": {
-            "ADDLYDIA_DESC": "Activates Lydia for the user.",
-            "NEED_REPLY": "```Please respond to a user's message!```",
-            "COFFEEHOUSE": "```You haven't defined the Coffehouse API Key! ```",
-            "ENABLED_LYDIA": "```Lydia has been activated for this user!```",
-            "RMLYDIA_DESC": "Makes Lydia disabled for the user.",
-            "ALREADY_EMPTY": "```Your user list is already empty!```",
-            "NOT_ADDED": "```You haven't added this user already!```",
-            "DISABLED": "```Lydia has been disabled for this user!```"
+            "ADDLYDIA_DESC": "उपयोगकर्ता के लिए Lydia को सक्रिय करता है.",
+            "NEED_REPLY": "```कृपया उपयोगकर्ता के संदेश का जवाब दें!```",
+            "COFFEEHOUSE": "```आपने कॉफ़हाउस API Key परिभाषित नहीं की है! ```",
+            "ENABLED_LYDIA": "```इस उपयोगकर्ता के लिए Lydia को सक्रिय कर दिया गया है!```",
+            "RMLYDIA_DESC": "उपयोगकर्ता के लिए Lydia को अक्षम बनाता है।",
+            "ALREADY_EMPTY": "```आपकी उपयोगकर्ता सूची पहले से ही खाली है!```",
+            "NOT_ADDED": "```आपने इस उपयोगकर्ता को पहले से नहीं जोड़ा है!```",
+            "DISABLED": "```इस उपयोगकर्ता के लिए Lydia अक्षम कर दिया गया है!```"
         },
         "profile": {
             "KICKME_DESC": "यह आपको ग्रुप से निकलता है जहाँ आप है |",
@@ -140,8 +140,8 @@
             "NEED_WORDS": "```कृपया कुछ शब्द लिखें!```",
             "GETTING_VIDEOS": "```मैं वीडियो ला रहा हूं...```",
             "NOT_FOUND": "*मुझे कुछ नहीं मिला:(*",
-            "IMG_DESC": "Takes Google pics.",
-            "IMG": "Uploading photo ```{}``` number ```{} `..."
+            "IMG_DESC": "Google pics लेता है।",
+            "IMG": "फोटो अपलोड हो राहा हैा ```{}``` number ```{} `..."
         },
         "sticker": {
             "STICKER_DESC": "यह आपके उत्तरित फोटो या वीडियो को स्टिकर में परिवर्तित करता है।",
