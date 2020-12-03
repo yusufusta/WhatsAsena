@@ -7,7 +7,7 @@
         "_asena": {
             "COMMAND": "Perintah",
             "DESC": "Deskripsi",
-            "EXAMPLE": "Contoh"
+            "EXAMPLE": "Contoh",
             "NOT_FOUND": "*Saya tidak dapat menemukan perintah seperti ini*"
         },
         "_plugin": {
