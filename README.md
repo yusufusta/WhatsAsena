@@ -13,7 +13,10 @@
 </p>
 
 ----
-![Docker Pulls](https://img.shields.io/docker/pulls/fusuf/whatsasena?style=flat-square) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/fusuf/whatsasena?style=flat-square)
+<p align="center">
+<img src="https://img.shields.io/docker/pulls/fusuf/whatsasena?style=flat-square"> <img src="https://img.shields.io/docker/image-size/fusuf/whatsasena?style=flat-square">
+  </p>
+  
 
 ## 📢 Guide
 > [Also for support & help please come our Telegram group.](https://t.me/AsenaSupport)
