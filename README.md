@@ -31,6 +31,10 @@
 ### Very Simple Method
 `We are working on it...`
 
+##  REPL RUN'DAN ASENA_SESSION ALIN
+
+ [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://repl.it/@justinthoms/WhatsAsena#README.md)
+
 ### Simple Method
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Quiec/WhatsAsena)
 
