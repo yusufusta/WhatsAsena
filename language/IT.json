@@ -19,11 +19,11 @@
             "INSTALLED": "*✅ Plugin installato con successo!*",
             "PLUGIN_DESC": "Mostra i plugins installati.",
             "INSTALLED_FROM_REMOTE": "*Plugins che hai installato esternamente:*\n",
-            "NO_PLUGIN": "*You have not installed any external plugins!*",
-            "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "*✅ Module successfully deleted! You must restart for the changes to take effect.*"
+            "NO_PLUGIN": "*Non hai installato nessun plugin esterno!*",
+            "REMOVE_DESC": "Rimuove un plugin.",
+            "NEED_PLUGIN": "```Please favore inserisci un plugin! Esempio: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```Forse hai installato il plugin, o forse no. Ma fatto sta che non lo trovo.```",
+            "DELETED": "*✅ Modulo rimosso correttamente! Riavvia il tuo bot per applicare i cambiamenti.*"
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
