@@ -16,7 +16,7 @@ const Lang = Language.getString('system_stats');
 
 Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
     await message.sendMessage(
-        '```Tanrı Türk\'ü Korusun. 🐺 Asena çalışıyor...```\n\n*Version:* ```'+Config.VERSION+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/WhatsAsena' , MessageType.text
+        '```Userbot Online ✅\'Status...```\n\n*Versione:* ```'+Config.VERSION+'```\n*Linguaggio di programmazione:* Javascript\n*Repo GitHub:* https://GitHub.com/doggycheems/whatsasena' , MessageType.text
     );
 }));
 
