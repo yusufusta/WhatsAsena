@@ -26,12 +26,12 @@
             "DELETED": "*✅ Modulo rimosso correttamente! Riavvia il tuo bot per applicare i cambiamenti.*"
         },
         "admin": {
-            "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*I am not admin in this group!*",
-            "BANNED": "kicked out of the group!",
-            "GIVE_ME_USER": "*Give me a user!*",
-            "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "added to the group!",
+            "BAN_DESC": "Banna una persona da un gruppo. Rispondi a un messaggio i tagga una persona per rimuoverla.",
+            "IM_NOT_ADMIN": "*Non sono admin del gruppo!*",
+            "BANNED": "Bannato dal gruppo!",
+            "GIVE_ME_USER": "*Specificami un utente!*",
+            "ADD_DESC": "Aggiunge qualcuno a un gruppo.",
+            "ADDED": "aggiunto al gruppo!",
             "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
             "PROMOTED": "```, admin role was given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
