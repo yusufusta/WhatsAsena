@@ -32,18 +32,18 @@
             "GIVE_ME_USER": "*Specificami un utente!*",
             "ADD_DESC": "Aggiunge qualcuno a un gruppo.",
             "ADDED": "aggiunto al gruppo!",
-            "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
-            "PROMOTED": "```, admin role was given!```",
-            "PROMOTE_DESC": "Makes any person an admin.",
-            "DEMOTE_DESC": "Takes the authority of any admin.",
-            "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
-            "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```Group chat muted!```",
-            "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
-            "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```Invitation link: ```"
+            "ALREADY_PROMOTED": "```L'utente è gia amministratore```",
+            "PROMOTED": "```, è ora un amministratore!```",
+            "PROMOTE_DESC": "Rende un utente amministratore.",
+            "DEMOTE_DESC": "Toglie i permessi di amministratore a un utente.",
+            "ALREADY_NOT_ADMIN": "```Errore```",
+            "DEMOTED": "```, non è più amministratore```",
+            "MUTE_DESC": "Muta il gruppo così che solo gli amministratori possano scrivere.",
+            "MUTED": "```Chat mutata!```",
+            "UNMUTE_DESC": "    Smuta la chat permettendo a tutti di scrivere.",
+            "UNMUTED": "```Chat smutata!```",
+            "INVITE_DESC": "Ottiene il link della chat.",
+            "INVITE": "```Link: ```"
         },
         "afk": {
             "AFK_DESC": "It makes you AFK - Away From Keyboard.",
@@ -68,10 +68,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```shutting down ⛔```",
+            "RESTART_DESC": "Riavvia l'userbot",
+            "RESTART_MSG": "```sto riavviando...```",
+            "SHUTDOWN_DESC": "Spegne l'userbot",
+            "SHUTDOWN_MSG": "```spegnendo ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -178,14 +178,14 @@
             "TAGALL_DESC": "Tags everyone in the group."
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
+            "UPDATER_DESC": "Aggiorna l'userbot all'ultima versione.",
+            "UPDATE": "*L'userbot è gia aggiornato!*",
+            "NEW_UPDATE": "*Aggiornamento disponibile!*\n\nChangelog:\n```",
+            "UPDATE_NOW_DESC": "Aggiorna l'userbot.",
+            "UPDATING": "Ricevo gli aggiornamenti dalla repo...",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated! *\n_Please restart your bot for the changes._"
+            "UPDATED": "*✅ Aggiornato con successo!*",
+            "UPDATED_LOCAL": "*✅ Aggiornamento completato! *\n_Riavvia il bot per applicare i cambiamenti._"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
