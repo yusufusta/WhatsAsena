@@ -229,11 +229,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     '*Gerçekleşen Hata:* ```' + error + '```\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [WHATSASENA] --*' + 
-                                    '\n*WhatsAsena an error has occurred!*'+
-                                    '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
-                                    '\n_You can write to our Telegram group for help._' +
-                                    '\n_This message should have gone to your number (saved messages)._\n\n' +
+                                await conn.sendMessage(conn.user.jid, '*-- ERRORE [USERBOT] --*' + 
+                                    '\n*Ho incontrato un errore!*'+
+                                    '\n_Non condividere questo log con nessuno, potrebbe contenere dei numeri di telefono. Stai attento a queste informazioni!_' +
+                                    '\n_Per richiedere aiuto contatta @doggy_cheems su telegram o su whatsapp +19892032996._' +
+                                    '\n_Questo messaggio dovrebbe essere andato al tuo numero (messaggi salvati), se così non fosse spegni immediatamente il bot da heroku e contatta il supporto._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text);
                             }
