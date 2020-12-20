@@ -1,29 +1,22 @@
-/* Copyright (C) 2020 Yusuf Usta.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-*/
-
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
+const memeMaker = require('meme-maker')
 
-/* CAN CODE SOMEONE WHO HAVE A TIME DO IT PLEASE?
+
 Asena.addCommand({pattern: 'meme ?(.*)', fromMe: true}, (async (message, match) => {    
     if (message.reply_message === false) return await message.sendMessage('*Bir fotoğraf veya videoya yanıt verin!*');
     var topText, bottomText;
-
     if (match[1].includes(';')) {
         var split = match[1].split(';');
-        topText = split[0];
+        topText = split[1];
         bottomText = split[0];
-    } else {
+    }
+	else {
         topText = match[1];
     }
-
-    var info = await message.reply('```Medya indiriliyor & sticker yapılıyor...```');
     
+	var info = await message.reply('```Medya indiriliyor & meme yapılıyor...```');
+	
     var location = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -31,5 +24,16 @@ Asena.addCommand({pattern: 'meme ?(.*)', fromMe: true}, (async (message, match) 
         },
         message: message.reply_message.data.quotedMessage
     });
+  	let options = {
+  	image: location,         
+  	outfile: 'asena-meme.png',
+  	topText: topText,
+  	bottomText: bottomText,
+	}
+	memeMaker(options, function(err) {
+  		if(e) throw new Error(err)
+		await message.client.sendMessage(message.jid, fs.readFileSync(options.outfile), MessageType.document, {filename: 'asena-meme.png', mimetype: Mimetype.png});
+		await info.delete();
+	});
+	
 }));
-*/
