@@ -204,6 +204,12 @@
             "UPLOAD": "Yükleme",
             "DOWNLOAD": "İndirme",
             "PING_DESC": "Pinginizi ölçer."
+        },
+        "ocr": {
+            "OCR_DESC ": "Yanıtlanan fotoğrafı metne dönüştürür.",
+            "DOWNLOADING": "```Fotoğraf indiriliyor ve metne dönüştürülüyor ...```",
+            "CONV": "Dönüştürülen metin :- ",
+            "NEED_REPLY": "Bir fotoğrafı yanıtla"
         }
     }
 }
