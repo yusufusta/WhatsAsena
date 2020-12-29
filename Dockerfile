@@ -5,6 +5,7 @@ RUN mkdir /root/WhatsAsena/bin/
 WORKDIR /root/WhatsAsena/
 
 ENV TZ=Europe/Istanbul
+RUN apk add --update --no-cache tesseract-ocr
 RUN apk --no-cache --virtual build-dependencies add \
     python \
     make \
