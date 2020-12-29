@@ -208,7 +208,8 @@
         "ocr": {
             "OCR_DESC ": "It converts photo to text.",
             "DOWNLOADING": "```Photo downloading & converting to text...```",
-            "CONV": "Converted text is :- "
+            "CONV": "Converted text is :- ",
+            "NEED_REPLY": "```Please respond to a message!```"
         }
     }
 }
