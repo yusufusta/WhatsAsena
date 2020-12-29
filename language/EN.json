@@ -204,6 +204,10 @@
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
             "PING_DESC": "Measures your ping."
-        }
+        },
+        "ocr": {
+            "OCR_DESC ": "It converts photo to text.",
+            "DOWNLOADING": "```Photo downloading & converting to text...```"
+            "CONV" : "Converted text is :- "
     }
 }
