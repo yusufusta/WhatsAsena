@@ -41,6 +41,7 @@
     "langs": "^2.0.0",
     "meme-maker": "^2.1.2",
     "node-tesseract-ocr": "^2.0.0",
+    "tesseractocr": "2.0.0",
     "pg": "^8.5.1",
     "sequelize": "^6.3.5",
     "simple-git": "^2.22.0",
