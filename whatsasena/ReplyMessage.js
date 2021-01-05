@@ -38,6 +38,19 @@ class ReplyMessage extends Base {
             this.width = data.quotedMessage.videoMessage.width;
             this.mediaKey = data.quotedMessage.videoMessage.mediaKey;
             this.video = true;
+        } else if (data.quotedMessage && data.quotedMessage.stickerMessage) {
+            this.url = data.quotedMessage.stickerMessage.url;
+            this.mimetype = data.quotedMessage.stickerMessage.mimetype;
+            this.height = data.quotedMessage.stickerMessage.height;
+            this.width = data.quotedMessage.stickerMessage.width;
+            this.mediaKey = data.quotedMessage.stickerMessage.mediaKey;
+            this.sticker = true;
+        } else if (data.quotedMessage && data.quotedMessage.audioMessage) {
+            this.url = data.quotedMessage.audioMessage.url;
+            this.mimetype = data.quotedMessage.audioMessage.mimetype;
+            this.mediaKey = data.quotedMessage.audioMessage.mediaKey;
+            this.audio = true;
+            this.video = false;
         } else if (data.quotedMessage && data.quotedMessage.conversation) {
             this.message = data.quotedMessage.conversation;
             this.text = data.quotedMessage.conversation;
