@@ -17,7 +17,7 @@ const Language = require('../language');
 const Lang = Language.getString('sticker');
 
 Asena.addCommand({pattern: 'sticker', fromMe: true, desc: Lang.STICKER_DESC}, (async (message, match) => {    
-    if (message.reply_message === false) return await message.sendMessage(Lang.NEED_REPLY);
+    if (message.reply_message === false || (message.reply_message.video === false && message.reply_message.image === false ) || message.reply_message.audio === true || message.reply_message.sticker === true) return await message.sendMessage(Lang.NEED_REPLY);
     var downloading = await message.client.sendMessage(message.jid,Lang.DOWNLOADING,MessageType.text);
     var location = await message.client.downloadAndSaveMediaMessage({
         key: {
