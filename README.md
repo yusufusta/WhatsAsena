@@ -1,4 +1,9 @@
 ```
+No more support.
+```
+----
+
+```
 Asena, Asena UserBot, WhatsAsena yazılımı temsil eden adlardır, yazının devamında birbiri yerine kullanılabilir.
 
 WhatsAsena - Asena Userbot Açık Kaynaklı geliştirmeye açık bir yazılımdır. 
