@@ -1,0 +1,231 @@
+{
+    "__ASENAJSON__": true,
+    "LANGUAGE": "Español",
+    "LANGCODE": "es",
+    "AUTHOR": "Skueletor",
+    "STRINGS": {
+        "_asena": {
+            "COMMAND": "Comando",
+            "DESC": "Explicación",
+            "EXAMPLE": "Ejemplo",
+            "NOT_FOUND": "*¡No pude encontrar tal comando!*"
+        },
+        "_plugin": {
+            "INSTALL_DESC": "Instalar plugins.",
+            "NEED_URL": "Introduzca una URL. Muestra:",
+            "INVALID_URL": "```¡Ingrese una URL válida!```",
+            "INVALID_PLUGIN": "*❌ ¡Tu plugin está defectuoso!*\n*Error:*",
+            "INSTALLED": "*✅ ¡El plugin se ha instalado correctamente!*",
+            "PLUGIN_DESC": "Muestra los plugins que ha instalado.",
+            "INSTALLED_FROM_REMOTE": "*plugins instalados externamente:*",
+            "NO_PLUGIN": "*¡No ha instalado ningún plugin externo!*",
+            "REMOVE_DESC": "Elimina el plugin.",
+            "NEED_PLUGIN": "```Introduzca un complemento. Ejemplo: .plugin _ejemplo```",
+            "NOT_FOUND_PLUGIN": "```Tal vez haya instalado un complemento de este tipo, o tal vez no. Pero seguro que no ahora mismo.```",
+            "DELETED": "*✅ ¡Plugin eliminado correctamente! Debe reiniciar el bot para que los cambios surtan efecto.*"
+        },
+        "admin": {
+            "BAN_DESC": "La persona del grupo será baneada. (Responda o etiquete a la persona junto al comando).",
+            "IM_NOT_ADMIN": "*¡No soy un administrador en este grupo!*",
+            "BANNED": "Eliminado/a del grupo!",
+            "GIVE_ME_USER": "*¡Dame un usuario!*",
+            "ADD_DESC": "Agrega personas al grupo.",
+            "ADDED": "¡Añadido al grupo!",
+            "ALREADY_PROMOTED": "```¿Cómo hago para ascender a alguien que ya es administrador?```",
+            "PROMOTED": "```¡Ascendido a admin con éxito :D!```",
+            "PROMOTE_DESC": "Asciende a cualquier persona a administradora.",
+            "DEMOTE_DESC": "Reduce la autoridad de cualquier persona.",
+            "ALREADY_NOT_ADMIN": "```¿Cómo puedo desautorizar a alguien que aún no es administrador?```",
+            "DEMOTED": "```Se ha reducido la potencia!```",
+            "MUTE_DESC": "Chat del grupo cerrado. Ahora sólo los administradores pueden publicar mensajes.",
+            "MUTED": "```¡El chat está cerrado!```",
+            "UNMUTE_DESC": "El chat del grupo está abierto. Ahora cualquiera puede enviar un mensaje.",
+            "UNMUTED": "¡Se abrió el chat del grupo!",
+            "INVITE_DESC": "Trayendo el enlace de invitación del grupo...",
+            "INVITE": "```Enlace de invitación:```"
+        },
+        "afk": {
+            "AFK_DESC": "Te hace AFK (ausente).",
+            "IM_AFK": "*¡Estoy ausente ahora!*",
+            "IM_AFK_NOMD": "¡Estoy ausente ahora!",
+            "REASON": "Razón",
+            "LAST_SEEN": "Última vez visto",
+            "IM_NOT_AFK": "```¡Ya no estoy ausente!```",
+            "AFK_TEXT": "¡Bip, bop! Este es un barco. No estoy aquí ahora mismo.",
+            "AFK_TEXT_NOMD": "¡Bip, bop! Este es un barco. No estoy aquí ahora mismo.",
+            "HOUR": "Hora",
+            "MINUTE": "Minuto",
+            "SECOND": "Segundo"
+        },
+        "evaluators": {
+            "TERM_DESC": "Le permite ejecutar comandos en el shell del servidor.",
+            "GIVE_ME_CODE": "*¡Dame un código!*"
+        },
+        "nekobin": {
+            "NEKO_DESC": "Los mensajes respondidos se agregarán a nekobin.com.",
+            "NEED_REPLY": "```¡Responde a un mensaje!```",
+            "MUST_TEXT": "```Responde cualquier mensaje```"
+        },
+        "heroku": {
+            "RESTART_DESC": "Reiniciar WhatsAsena",
+            "RESTART_MSG": "```Reiniciando...```",
+            "SHUTDOWN_DESC": "Apagar WhatsAsena",
+            "SHUTDOWN_MSG": "```Apagando ⛔```",
+            "DYNO_DESC": "Verificar el uso de heroku dyno",
+            "DYNO_TOTAL": "```Cuota total```",
+            "DYNO_USED": "```Cuota utilizada```",
+            "PERCENTAGE": "```Porcentaje```",
+            "DYNO_LEFT": "```Restante```",
+            "SETVAR_DESC": "conjunto heroku config var",
+            "SET_SUCCESS": "Establecido con éxito ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```Falta la key o el value```",
+            "INVALID": "```Key no válida: formato de valor```",
+            "GETVAR_DESC": "obtener heroku config var",
+            "DELVAR_DESC": "Eliminar heroku config var",
+            "DEL_SUCCESS": "```{} eliminado con éxito```",
+            "NOT_FOUND": "```No se encontraron resultados para esta key```"           
+        },
+        "filters": {
+            "FILTER_DESC": "Agrega un filtro. Si alguien escribe el filtro que escribiste, envía la respuesta que escribiste. Si solo escribe filtro, devuelve los filtros que agregó.",
+            "NO_FILTER": "*❌ ¡No hay filtros en este chat!*",
+            "FILTERS": "*🔎 Tus filtros en este chat:*",
+            "NEED_REPLY": "*❌ ¡Escriba una respuesta!*\n*Ejemplo:*",
+            "FILTERED": "*✅ ¡El filtro* ```{}``` *se ha configurado correctamente!*",
+            "STOP_DESC": "Detiene el filtro que agregó.",
+            "NEED_FILTER": "*❌ ¡Escriba un filtro!*\n*Ejemplo:*",
+            "ALREADY_NO_FILTER": "*❌ ¡Ya no existe tal filtro!*",
+            "DELETED": "*✅ ¡El plugin se ha instalado correctamente!*"
+        },
+        "greetings": {
+            "WELCOME_DESC": "Establece un mensaje de bienvenida. Si no escribe un mensaje, aparecerá un mensaje de bienvenida.",
+            "NOT_SET_WELCOME": "*¡No ha establecido un mensaje de bienvenida!*\n**Para configurar:** ```.welcome mensaje de bienvenida```",
+            "WELCOME_ALREADY_SETTED": "*✅ ¡Se establece el mensaje de bienvenida!*\n*Mensaje:* ```",
+            "NEED_WELCOME_TEXT": "*Debe escribir un mensaje para configurar un mensaje de bienvenida.*\n*Ejemplo:* ```.welcome ¡BIENVENIDO!```",
+            "WELCOME_DELETED": "*✅ ¡El mensaje de bienvenida se ha eliminado correctamente!*",
+            "WELCOME_SETTED": "*✅ ¡El mensaje de bienvenida se ha configurado correctamente!*",
+            "GOODBYE_DESC": "Establece el mensaje de la despedida. Si no envía un mensaje, le traerá el mensaje por defecto de la despedida.",
+            "NOT_SET_GOODBYE": "*¡No estableciste el mensaje de despedida!*\n*Para configurar:* ```.goodbye ¡Adiós!```",
+            "GOODBYE_ALREADY_SETTED": "*✅ ¡El mensaje de despedida está configurado!*\n*Mensaje:* ```",
+            "NEED_GOODBYE_TEXT": "*Tienes que escribir un mensaje para configurar el mensaje de despedida.*\n*Ejemplo* ```.goodbye ¡Adiós!```",
+            "GOODBYE_DELETED": "*✅ Se eliminó con éxito el mensaje de despedida*",
+            "GOODBYE_SETTED": "*✅ ¡El mensaje de despedida fue configurado correctamente!*"
+        },
+        "lydia": {
+            "ADDLYDIA_DESC": "Lydia activa su bot para el usuario.",
+            "NEED_REPLY": "```*¡Responda al mensaje de un usuario!*```",
+            "COFFEEHOUSE": "```¡Ha definido la clave API de Coffehouse!```",
+            "ENABLED_LYDIA": "```¡Lydia ha sido activada para este usuario!```",
+            "RMLYDIA_DESC": "Lydia desactiva su bot para el usuario.",
+            "ALREADY_EMPTY": "```¡Tu lista de usuarios ya está vacía!```",
+            "NOT_ADDED": "```¡Aún no has agregado a este usuario!```",
+            "DISABLED": "```Lydia ha sido deshabilitada para este usuario```"
+        },
+        "memes": {
+            "MEMES_DESC": "Photo memes you replied to.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Downloading media & making meme...```"
+        },
+        "ocr": {
+            "OCR_DESC": "Reads the text on the photo you have replied.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Media is downloading & reading...```",
+            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
+            "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
+        },
+        "profile": {
+            "KICKME_DESC": "Te quita del grupo que escribiste.",
+            "KICKME": "```¡Adiós! Me voy 🤠```",
+            "PP_DESC": "Tu foto de perfil es la foto a la que respondes.",
+            "NEED_PHOTO": "*¡Dame una foto!*",
+            "PPING": "```Estoy colocándome la foto de perfil...```",
+            "BLOCK_DESC": "Usuario Bloqueado.",
+            "UNBLOCK_DESC": "Usuario desbloqueado.",
+            "BLOCKED": "bloqueado",
+            "UNBLOCKED": "desbloqueado",
+            "BLOCKED_UPPER": "¡Bloqueado!",
+            "UNBLOCKED_UPPER": "Desbloqueado.",
+            "NEED_USER": "Dame un usuario!",
+            "JID_DESC": "Giving user's JID.",
+            "JID": "```JID address of``` @{} ```: {}```",
+            "JID_CHAT": "```Chat's JID address: {}```"
+        },
+        "removebg": {
+            "REMOVEBG_DESC": "Borra el fondo de la foto.",
+            "NEED_PHOTO": "*¡Dame una foto!*",
+            "NO_API_KEY": "*¡No tienes clave API!*\nPuede obtenerlo de remove.bg.",
+            "RBGING": "```Se está eliminando el fondo :D...```"
+        },
+        "scrapers": {
+            "TRANSLATE_DESC": "Se traduce con Google Translate. Debes responder a un mensaje.",
+            "TRANSLATE_USAGE": ".trt it es (Traducción del Italiano al Español)",
+            "NEED_REPLY": "```¡Responde a un mensaje!```",
+            "LANG": "Idioma",
+            "FROM": "Idioma traducido",
+            "RESULT": "Traducción",
+            "TRANSLATE_ERROR": "*❌ ¡Hubo un error en la traducción!*",
+            "CURRENCY_ERROR": "```¡Error de sintaxis! Ejemplo: .currency 1 USD EUR",
+            "INVALID_CURRENCY": "```Error en la conversión de moneda, ¡ingresó la unidad incorrecta!```",
+            "UNKNOWN_ERROR": "```¡Se produjo un error, no se pudo realizar la conversión de moneda!```",
+            "TTS_DESC": "Convierte texto en sonido.",
+            "TTS_ERROR": "```Error, no se pudo realizar la síntesis de voz de su oración.```",
+            "SONG_DESC": "Carga la canción que escribiste.",
+            "NEED_TEXT_SONG": "*¡Por favor escribe una canción!*\n*Ejemplo:* ```.song Faded - Alan Walker```",
+            "NO_RESULT": "*No pude encontrar nada :(*",
+            "DOWNLOADING_SONG": "```Tu canción se está descargando...```",
+            "UPLOADING_SONG": "```Tu canción se está subiendo...```",
+            "VIDEO_DESC": "Descarga video de YouTube.",
+            "NEED_VIDEO": "*Por favor, escriba una dirección de video.*\n*Ejemplo:* ```.video https://www.youtube.com/watch?v=60ItHLz5WEA&ab```",
+            "DOWNLOADING_VIDEO": "```Tu video se está descargando...```",
+            "UPLOADING_VIDEO": "```Subiendo tu video...```",
+            "YT_DESC": "Búsquedas en YouTube.",
+            "NEED_WORDS": "```¡Por favor escriba algunas palabras!```",
+            "GETTING_VIDEOS": "```Traigo videos...```",
+            "NOT_FOUND": "*No pude encontrar nada :(*",
+            "SEARCHING": "*🔎 Investigando...*",
+            "WIKI_DESC": "Busca en Wikipedia.",
+            "IMG_DESC": "Ninguna traducción coincide con su búsqueda\nGoogle Pictures toma fotografías.",
+            "IMG": "Subiendo foto ```{}``` número ```{}```..."
+        },
+        "sticker": {
+            "STICKER_DESC": "Crea un sticker de la foto o el video al que respondiste.",
+            "NEED_REPLY": "*¡Responde a una foto o video!*",
+            "DOWNLOADING": "Convirtiendo en sticker... :D"
+        },
+        "system_stats": {
+            "ALIVE_DESC": "Verifica si funciona correctamente el bot",
+            "SYSD_DESC": "Dice las propiedades del sistema."
+        },
+        "tagall": {
+            "TAGALL_DESC": "Etiqueta a todos en el grupo."
+        },
+        "updater": {
+            "UPDATER_DESC": "Verificar actualizaciones.",
+            "UPDATE": "*¡Tu bot está completamente actualizado!*",
+            "NEW_UPDATE": "*¡Hay una nueva actualización disponible para el bot!*\n\nCambios:\n```",
+            "UPDATE_NOW_DESC": "Actualizar ahora.",
+            "UPDATING": "_La actualización está en curso..._",
+            "INVALID_HEROKU": "*❌ ¡Tu información de Heroku es incorrecta!*",
+            "UPDATED": "*✅ ¡La actualización fue exitosa!*",
+            "UPDATED_LOCAL": "*✅ ¡La actualización fue exitosa!*\n_Para guardar los cambios deben reiniciarse._"
+        },
+        "weather": {
+            "WEATHER_DESC": "Trae el clima.",
+            "NEED_LOCATION": "*¡Por favor, escriba una ubicación!*\n*Ejemplo:* ```.weather Colombia```",
+            "LOCATION": "Ubicación",
+            "TEMP": "Temperatura",
+            "DESC": "Explicación",
+            "HUMI": "Humedad",
+            "WIND": "Velocidad del viento",
+            "CLOUD": "Nubes",
+            "NOT_FOUND": "```No pude encontrar una ciudad con ese nombre. 😖```"
+        },
+        "web": {
+            "SPEEDTEST_DESC": "Mide la velocidad de carga y descarga.",
+            "SPEEDTESTING": "```Prueba de velocidad en ejecución...```",
+            "SPEEDTEST_RESULT": "*¡Prueba de velocidad hecha!*",
+            "UPLOAD": "Subida",
+            "DOWNLOAD": "Bajada",
+            "PING_DESC": "Mide tu ping."
+        }
+    }
+}
