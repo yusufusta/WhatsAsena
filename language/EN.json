@@ -125,6 +125,11 @@
             "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Downloading media & making meme...```"
         },
+        "clear": {
+            "CLR_DESC": "Clear all the messages From this Chat.",
+            "CLR_PROC": "```Clearing all the Messages... 🗑️```",
+            "CLR_DONE": "*✅️ Successfully Cleared Messages From this Chat*."
+        },
         "ocr": {
             "OCR_DESC": "Reads the text on the photo you have replied.",
             "NEED_REPLY": "*Reply to a photo!*",
