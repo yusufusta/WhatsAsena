@@ -257,6 +257,19 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             }
         }
     }
-}
+}if (m.quoted.url) m.quoted.download = () => conn.downloadM(vM)
+      m.quoted.copy = () => exports.smsg(conn, M.fromObject(M.toObject(vM)))
+      m.quoted.forward = (jid, forceForward = false)  => conn.forwardMessage(jid, vM, forceForward)
+      m.quoted.copyNForward = (jid, forceForward = false, options = {})  => conn.copyNForward(jid, vM, forceForward, options)
+      m.quoted.cMod = (jid, text = '', sender = m.quoted.sender, options = {}) => conn.cMod(jid, vM, text, sender, options)
+		}
+    if (m.msg.url) m.download = () => conn.downloadM(m)
+		m.text = m.msg.text || m.msg.caption || m.msg || ''
+    m.reply = (text, chatId, options) => conn.reply(chatId ? chatId : m.chat, text, m,  options)
+    m.copy = () => exports.smsg(conn, M.fromObject(M.toObject(m)))
+    m.forward = (jid, forceForward = false)  => conn.forwardMessage(jid, m, forceForward)
+    m.copyNForward = (jid, forceForward = false, options = {})  => conn.copyNForward(jid, m, forceForward, options)
+    m.cMod = (jid, text = '', sender = m.sender, options = {}) => conn.cMod(jid, m, text, sender, options)
+	}
 
 whatsAsena();
