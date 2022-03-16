@@ -38,7 +38,7 @@
 ### Simple Method
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Quiec/WhatsAsena)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/comlahirusanjeewa/WhatsAsena)
 
 ### The Hard Method
 ```js
@@ -74,7 +74,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 
 ## Developers
 
-[![Yusuf Usta](https://github.com/comlahirusanjeewa.png?size=100)](https://yusufusta.net) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio) | [![Justin Thoms](https://github.com/justinthoms.png?size=100)](https://github.com/justinthoms) | [![CW4RR10R](https://github.com/CW4RR10R.png?size=100)](https://github.com/CW4RR10R) | [![DevXenon](https://github.com/phaticusthiccy.png?size=100)](https://github.com/phaticusthiccy)
+[![Yusuf Usta](https://github.com/yusufusta.png?size=100)](https://yusufusta.net) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio) | [![Justin Thoms](https://github.com/justinthoms.png?size=100)](https://github.com/justinthoms) | [![CW4RR10R](https://github.com/CW4RR10R.png?size=100)](https://github.com/CW4RR10R) | [![DevXenon](https://github.com/phaticusthiccy.png?size=100)](https://github.com/phaticusthiccy)
 ---|---|---|---|---
 [Yusuf Usta](https://t.me/fusuf) | [Alperen Ç](https://t.me/xacnio) | [justinthoms](https://t.me/Mr_justinthomas) | [CW4RR10R](https://github.com/CW4RR10R)  | [DevXenon](https://github.com/phaticusthiccy)
 Author, Base, Bug Fixes, Modules |  Bug Fixes, Modules | Bug Fixes, Modules, Idea | Modules | Modules, Idea
